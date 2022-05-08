@@ -28,12 +28,8 @@ function Header() {
               <Link to="/courseMain">
                 <li>Courses</li>
               </Link>
-              <Link to="/UserView">
-                <li>Store</li>
-              </Link>
-              <Link to="/careere">
-                <li>Career</li>
-              </Link>
+             
+              
               <Link to="/contactUs">
                 <li>Contact Us</li>
               </Link>
@@ -48,7 +44,7 @@ function Header() {
         <div className="conatiner">
           <div className="header">
             <SliderStudent />
-            <img src={logo} alt="logo" className="logo" />
+            
 
             <ul className="pages">
               <Link to="/home2">
@@ -60,12 +56,8 @@ function Header() {
               <Link to="/courseMain">
                 <li>Courses</li>
               </Link>
-              <Link to="/UserView">
-                <li>Store</li>
-              </Link>
-              <Link to="/careere">
-                <li>Career</li>
-              </Link>
+              
+              
               <Link to="/contactUs">
                 <li>Contact Us</li>
               </Link>
@@ -81,7 +73,7 @@ function Header() {
           <div className="header">
             <SliderLecturer />
             <img src={logo} alt="logo" className="logo" />
-
+ 
             <ul className="pages">
               <Link to="/home2">
                 <li>Home</li>
@@ -92,12 +84,7 @@ function Header() {
               <Link to="/courseMain">
                 <li>Courses</li>
               </Link>
-              <Link to="/UserView">
-                <li>Store</li>
-              </Link>
-              <Link to="/careere">
-                <li>Career</li>
-              </Link>
+              
               <Link to="/contactUs">
                 <li>Contact Us</li>
               </Link>
@@ -124,12 +111,7 @@ function Header() {
               <Link to="/courseMain">
                 <li>Courses</li>
               </Link>
-              <Link to="/UserView">
-                <li>Store</li>
-              </Link>
-              <Link to="/careere">
-                <li>Career</li>
-              </Link>
+             
               <Link to="/contactUs">
                 <li>Contact Us</li>
               </Link>

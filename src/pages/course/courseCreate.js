@@ -44,7 +44,7 @@ const CourseCreate = () => {
     e.preventDefault();
     try {
       // console.log(values);
-      alert("Congratulations!!  you have created a new ");                
+      alert("Congratulations!!  you have created a new  course !!");                
       const { data } = await request.post("course/coursecreate", {
         ...values,
       });
@@ -117,17 +117,22 @@ const CourseCreate = () => {
             </div>
           )}
         </div>
+        
 
-
+  
         <div>
-          <input className="course_select"
+          <input  className="course_select"
             type="text"
             name="category"
             placeholder="Course category"
             required
             value={values.category}
             onChange={handleChange}
+            
           />
+          
+
+
         </div>
         <br /><br />
         <div  >
