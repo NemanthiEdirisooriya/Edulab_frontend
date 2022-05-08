@@ -84,7 +84,7 @@
     height: 60px;
 }
 .nav-text2 a {
-    color: white;
+  color: #fafafa;
     font-size: 16px;
     text-decoration: none;
     width: 90%;
@@ -96,5 +96,5 @@
     font-weight: 500;
   }
   .nav-text2 a:hover {
-    background: #00c8cd;
+    color: #95e4ee;
   }

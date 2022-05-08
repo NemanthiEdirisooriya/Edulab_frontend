@@ -40,30 +40,8 @@ export const SidebarItemsLecturer = [
         icon: <FaIcons.FaChartLine />,
         className: "nav-text"
     },
-    {
-        title: "Reviews",
-        path: "/reviewList",
-        icon: <FaIcons.FaStarHalfAlt />,
-        className: "nav-text"
-    },
-    {
-        title: "My Products",
-        path: "/DisplayItem",
-        icon: <FaIcons.FaListAlt />,
-        className: "nav-text"
-    },
-    {
-        title: "Withdraw Methods",
-        path: "/updateBank",
-        icon: <AiIcons.AiFillBank />,
-        className: "nav-text"
-    },  
-    {
-        title: "Withdraw History",
-        path: "/withdrawHistory",
-        icon: <FaIcons.FaMoneyCheckAlt />,
-        className: "nav-text"
-    }
+    
+   
     
 ];
 
@@ -98,24 +76,7 @@ export const SidebarItemsStudent = [
         icon: <IoIcons.IoMdNotifications />,
         className: "nav-text"
     },
-    {
-        title: "Reviews",
-        path: "/myReview",
-        icon: <FaIcons.FaStarHalfAlt />,
-        className: "nav-text"
-    },
-    {
-        title: "Wallet",
-        path: "/updateWallet",
-        icon: <FaIcons.FaCreditCard />,
-        className: "nav-text"
-    },
-    {
-        title: "Payment History",
-        path: "/paymentHistory",
-        icon: <FaIcons.FaMoneyCheckAlt />,
-        className: "nav-text"
-    }
+  
     
 ];
 

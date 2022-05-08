@@ -98,7 +98,7 @@ function CourseMain() {
         </div>
         <div className="description"  >
           <br />
-          <h2 className="cquote">Every expert was once a beginner .Start your first step  with  SKILL Lab  </h2>
+          <h2 className="cquote">Every expert was once a beginner .Start your first step  with  EduLab  </h2>
         </div>
 
         <div  >
@@ -108,7 +108,7 @@ function CourseMain() {
               className="course_search"
               placeholder="Search your course here "
               allowClear
-              enterButton="Search SkillLab courses"
+              enterButton="Search EduLab courses"
               size="large"
               onSearch={onSearch}
             />
@@ -128,7 +128,7 @@ function CourseMain() {
                     <div className="card-text">  <h5 >{courses.paid}</h5> </div>
                     <div className="card-text">  <h5 > ${courses.price}</h5> </div>
                     <Link to="/enroll" className="btn btn-primary" id="apply1">Enroll</Link>
-                    <Link to="/review" className="btn btn-primary" id="apply1">Review</Link>
+                   
                   </div>
                 </div>
               </div>
